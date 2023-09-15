@@ -3,56 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
   <style>
     body {
-      background-color: #defbfc; /* Updated background color */
       font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
+      padding: 20px;
+      background-color: #defbfc; /* Set the background color */
     }
-
-    nav {
+    .menu {
+      display: flex;
+      justify-content: center;
       background-color: #333;
-      color: white;
       padding: 10px;
     }
-
-    nav ul {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    nav li {
-      display: inline;
-      margin-right: 10px;
-    }
-
-    nav a {
+    .menu a {
       color: white;
+      margin: 0 10px;
       text-decoration: none;
     }
-
-    .content {
-      padding: 20px;
+    .menu a:hover {
+      text-decoration: underline;
     }
   </style>
+  <title>Your Website</title>
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-
-  <div class="content">
-    <h1>Welcome to My Website</h1>
-    <p>This is the homepage. Feel free to explore!</p>
+  <div class="menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
   </div>
-
-  <script src="script.js"></script>
+  <h1>Welcome to My Website</h1>
+  <p>This is the homepage. Feel free to explore!</p>
 </body>
 </html>
