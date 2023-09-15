@@ -3,70 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
   <style>
     body {
-      background-color: #f0f0f0;
       font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    nav {
-      background-color: #333;
-      color: white;
-      padding: 10px;
-    }
-
-    nav ul {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    nav li {
-      display: inline;
-      margin-right: 10px;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-    }
-
-    .content {
       padding: 20px;
     }
-
-    .project {
-      border: 1px solid #ccc;
-      padding: 10px;
-      margin-bottom: 10px;
-      background-color: white;
+    .portfolio-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .portfolio-item {
+      background-color: #defbfc;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .portfolio-item h2 {
+      color: #333;
     }
   </style>
+  <title>Portfolio</title>
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-
-  <div class="content">
-    <h1>My Portfolio</h1>
-    <div class="project">
-      <h2>Project 1</h2>
-      <p>Description of Project 1.</p>
+  <div class="portfolio-container">
+    <div class="portfolio-item">
+      <h2>CS1332 Final Project: NBA Teams App</h2>
+      <p>
+        January 2023 - May 2023<br>
+        Developed a Java application that leveraged two NBA APIs to provide users with comprehensive information about NBA teams, including statistics and logos.
+      </p>
+      <p>
+        Utilized RESTful API requests and JSON parsing for data retrieval GUI framework (JavaFX) for the user interface.
+      </p>
+      <p>
+        Implemented caching mechanisms to optimize enhance system performance and deliver a user-friendly application.
+      </p>
     </div>
-    <div class="project">
-      <h2>Project 2</h2>
-      <p>Description of Project 2.</p>
+    <div class="portfolio-item">
+      <h2>FBLA Digital Video Production (4th in state)</h2>
+      <p>
+        November 2021 - March 2022<br>
+        Created a compelling 2-minute short film using Final Cut Pro and Premiere Pro, demonstrating proficiency in video editing.
+      </p>
+      <p>
+        Leveraged video editing knowledge to seamlessly integrate overlays, graphics, text, and effects, enriching the storytelling using Premiere Pro.
+      </p>
+    </div>
+    <div class="portfolio-item">
+      <h2>FBLA Publication Design (5th place in nation)</h2>
+      <p>
+        November 2020 - March 2021<br>
+        Utilized Adobe Photoshop and Illustrator to meticulously design all elements of the subscription box, including packaging, merchandise, and an exclusive game guide, ensuring a cohesive and immersive experience.
+      </p>
+      <p>
+        Crafted visually appealing flyers for promotion for gaming events and retail outlets, employing Adobe design software to create compelling visuals.
+      </p>
+    </div>
+    <div class="portfolio-item">
+      <h2>FBLA Public Service Announcement (2nd in state)</h2>
+      <p>
+        November 2019 - March 2020<br>
+        Successfully led a team in the production and editing of a workplace soft skills Public Service Announcement (PSA).
+      </p>
+      <p>
+        Proficiently managed audio and video editing, demonstrating expertise in Final Cut Pro.
+      </p>
     </div>
   </div>
-
-  <script src="script.js"></script>
 </body>
 </html>
